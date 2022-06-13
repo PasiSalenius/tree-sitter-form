@@ -1,0 +1,29 @@
+{
+  "name": "tree-sitter-form",
+  "version": "0.1.0",
+  "description": "Tree-sitter parser for HTTP form data",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "tree-sitter test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PasiSalenius/tree-sitter-form.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "http"
+  ],
+  "author": "Pasi Salenius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PasiSalenius/tree-sitter-form/issues"
+  },
+  "homepage": "https://github.com/PasiSalenius/tree-sitter-form#readme",
+  "dependencies": {
+    "nan": "^2.16.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.6"
+  }
+}

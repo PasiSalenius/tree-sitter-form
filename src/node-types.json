@@ -1,5 +1,24 @@
 [
   {
+    "type": "key_value",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "key",
+          "named": true
+        },
+        {
+          "type": "value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "source_file",
     "named": true,
     "fields": {},
@@ -8,11 +27,7 @@
       "required": false,
       "types": [
         {
-          "type": "key",
-          "named": true
-        },
-        {
-          "type": "value",
+          "type": "key_value",
           "named": true
         }
       ]

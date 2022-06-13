@@ -4,9 +4,9 @@ module.exports = grammar({
     extras: $ => [],
   
     rules: {
-      source_file: $ => optional(seq($._key_value, repeat(seq('&', $._key_value)))),
+      source_file: $ => optional(seq($.key_value, repeat(seq('&', $.key_value)))),
   
-      _key_value: $ =>
+      key_value: $ =>
         seq($.key, optional(seq('=', $.value))),
   
       key: _ => /[^ =&]+/,

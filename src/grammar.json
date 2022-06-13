@@ -9,7 +9,7 @@
           "members": [
             {
               "type": "SYMBOL",
-              "name": "_key_value"
+              "name": "key_value"
             },
             {
               "type": "REPEAT",
@@ -22,7 +22,7 @@
                   },
                   {
                     "type": "SYMBOL",
-                    "name": "_key_value"
+                    "name": "key_value"
                   }
                 ]
               }
@@ -34,7 +34,7 @@
         }
       ]
     },
-    "_key_value": {
+    "key_value": {
       "type": "SEQ",
       "members": [
         {
